@@ -45,7 +45,7 @@ namespace ShiftTech.Controllers
         public ActionResult Delete([FromBody] string id)
         {
             _creditCardService.DeleteCreditCard(id);
-            return Json("Provider no long in database");
+            return Json("Card no longer in database");
         }
     }
 }
