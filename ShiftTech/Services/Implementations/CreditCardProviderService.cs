@@ -25,11 +25,14 @@ namespace ShiftTech.Services
             {
                 var existingItem = session.Query<CreditCardProvider>().FirstOrDefault(x => x.Name == provider.Name);
 
-                if (existingItem == null) session.Store(provider);
+                if (existingItem == null)
+                {
+                    session.Store(provider);
 
-                session.Advanced.MaxNumberOfRequestsPerSession = 100;
+                    session.Advanced.MaxNumberOfRequestsPerSession = 100;
 
-                session.SaveChanges();
+                    session.SaveChanges();
+                }
             }
 
             return provider;
