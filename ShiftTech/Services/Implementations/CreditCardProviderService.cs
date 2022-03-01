@@ -57,7 +57,7 @@ namespace ShiftTech.Services
 
             foreach (var provider in providers)
             {
-                var regex = new Regex($"{provider.RegEx}");
+                var regex = new Regex(provider.RegEx);
                 if (regex.IsMatch(card.CardNumber) && card.CardNumber.Length == provider.Length)
                     return true;
             }
