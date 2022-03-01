@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "ClientApp/src/style/publication.css",
+    "inputFile": "ClientApp/src/style/publication.scss"
+  },
+  {
+    "outputFile": "ClientApp/src/style/publication-item.css",
+    "inputFile": "ClientApp/src/style/publication-item.scss"
+  },
+  {
+    "outputFile": "ClientApp/src/style/feed-view.css",
+    "inputFile": "ClientApp/src/style/feed-view.scss"
+  }
+]

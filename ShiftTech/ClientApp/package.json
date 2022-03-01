@@ -1,0 +1,37 @@
+{
+  "name": "ShiftTech",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^17.0.0",
+    "react-hook-form": "^7.27.1",
+    "react-moment": "^1.1.1",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "5.0.0",
+    "rimraf": "^2.6.2",
+    "sass": "^1.49.9"
+  },
+  "scripts": {
+    "start": "rimraf ./build && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
