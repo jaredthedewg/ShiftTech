@@ -1,6 +1,5 @@
 ﻿import React from 'react';
 import '../style/credit-card-provider.scss'
-import { useNavigate } from "react-router-dom";
 
 function CreditCard(props) {
     const { card } = props;
